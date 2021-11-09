@@ -1,3 +1,24 @@
-.mainLogo {
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
 
+.mainLogo {
+    width: 120px;
+}
+
+.nav {
+    width: 60%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
 }
