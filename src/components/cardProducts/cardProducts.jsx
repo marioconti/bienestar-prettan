@@ -1,5 +1,6 @@
 import React from "react";
 import "./cardProducts.css";
+import aloeVera from '../../assets/images/Aloe-Vera-&-Hyaluronic-Ac.png'
 
 export const CardProducts = () => {
   return (
@@ -9,7 +10,7 @@ export const CardProducts = () => {
           Beuty Gel de Alore Vera & Ácido Hialuronico
         </h3>
         <a className="more-info" href="">
-          <img className="imagen-producto" src="" alt="imagen producto" />
+          <img className="imagen-producto" src={aloeVera} alt="imagen producto" />
         </a>
         <div className="info-descripcion">
           Producto de cuidado en casa, recomendado para el apoyo de pieles secas
