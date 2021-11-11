@@ -1,6 +1,10 @@
 /* CONTENEDOR PRINCIPAL */
 
-.contenedor-card {
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 300px;
   height: 600px;
   border-radius: 15px;
@@ -10,20 +14,37 @@
 }
 
 /* ================================= */
+/* PRODUCT */
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 /* IMAGEN */
 .more-info {
   cursor: pointer;
 }
+.image-product{
+  width: 300px;
+}
 /* ================================= */
 /* INFO CARD */
-.info-descripcion {
+.product-name{
+  width: 250px;
+  display: block;
+  text-align: center;
+}
+
+.info-description {
   margin: 15px 0px;
 }
 /* ================================= */
 /* BOTONES */
-.boton{
+.button {
+  width: 200px;
   height: 40px;
-  margin:10px;
+  margin: 10px;
   cursor: pointer;
   border-radius: 15px;
   background-color: rgb(134, 218, 134);
@@ -31,7 +52,7 @@
   text-align: center;
 }
 
-.boton:hover{
+.button:hover {
   background-color: rgb(145, 238, 145);
 }
 /* ================================= */
