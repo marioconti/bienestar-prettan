@@ -7,15 +7,15 @@
   justify-content: center;
   width: 300px;
   height: 600px;
+  margin: 50px 80px;
   border-radius: 15px;
   padding: 40px;
-  margin-left: 20rem;
   box-shadow: 0px 1px 10px 0px rgb(182, 180, 180);
 }
 
 /* ================================= */
 /* PRODUCT */
-.product{
+.product {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,12 +25,12 @@
 .more-info {
   cursor: pointer;
 }
-.image-product{
+.image-product {
   width: 300px;
 }
 /* ================================= */
 /* INFO CARD */
-.product-name{
+.product-name {
   width: 250px;
   display: block;
   text-align: center;
@@ -50,6 +50,11 @@
   background-color: rgb(134, 218, 134);
   line-height: 40px;
   text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.button a {
+  text-decoration: none;
+  color: black;
 }
 
 .button:hover {
