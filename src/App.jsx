@@ -4,11 +4,9 @@ import { ProductList } from "../src/components/Products/Products";
 
 function App() {
   return (
-    <>
-      <Header />
-      <h1>Bienestar Prettan</h1>
-      <ProductList />
-    </>
+    <div className='app'>
+      <Header/>
+    </div>
   );
 }
 
