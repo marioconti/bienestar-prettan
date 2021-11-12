@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   width: 300px;
-  height: 600px;
   margin: 50px 80px;
   border-radius: 15px;
   padding: 40px;
@@ -37,6 +36,7 @@
 }
 
 .info-description {
+  padding: 0 15px;
   margin: 15px 0px;
 }
 /* ================================= */

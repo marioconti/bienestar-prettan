@@ -1,25 +1,25 @@
 import React from "react";
 import "./cardProducts.css";
 
-export const CardProducts = (props) => {
+export const CardProducts = ({nameProduct, photo, shortDescription, linkFicha, ficha}) => {
   return (
     <div className="card-container">
       <div className="product">
-        <h3 className="product-name">{props.nameProduct}</h3>
+        <h3 className="product-name">{nameProduct}</h3>
         <a className="more-info" href="">
           <img
             className="image-product"
-            src={props.photo}
+            src={photo}
             alt="imagen producto"
           />
         </a>
-        <div className="info-description">{props.shortDescription}</div>
+        <div className="info-description">{shortDescription}</div>
       </div>
       <div className="button">
         <a
           className="button-enlace"
-          href={props.linkFicha}
-          download={props.ficha}
+          href={linkFicha}
+          download={ficha}
         >
           Descargar Ficha Técnica
         </a>
