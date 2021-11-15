@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/bienestar-prettan/static/css/main.8018442d.chunk.css",
+    "main.js": "/bienestar-prettan/static/js/main.5e3a8d39.chunk.js",
+    "main.js.map": "/bienestar-prettan/static/js/main.5e3a8d39.chunk.js.map",
+    "runtime-main.js": "/bienestar-prettan/static/js/runtime-main.e034a1c7.js",
+    "runtime-main.js.map": "/bienestar-prettan/static/js/runtime-main.e034a1c7.js.map",
+    "static/js/2.d6def36f.chunk.js": "/bienestar-prettan/static/js/2.d6def36f.chunk.js",
+    "static/js/2.d6def36f.chunk.js.map": "/bienestar-prettan/static/js/2.d6def36f.chunk.js.map",
+    "index.html": "/bienestar-prettan/index.html",
+    "static/css/main.8018442d.chunk.css.map": "/bienestar-prettan/static/css/main.8018442d.chunk.css.map",
+    "static/js/2.d6def36f.chunk.js.LICENSE.txt": "/bienestar-prettan/static/js/2.d6def36f.chunk.js.LICENSE.txt",
+    "static/media/Aloe-Vera-&-Hyaluronic-Ac.5308ea2a.png": "/bienestar-prettan/static/media/Aloe-Vera-&-Hyaluronic-Ac.5308ea2a.png",
+    "static/media/Aloe-Vera-&-Tea-Tree-Bottle.296698f4.png": "/bienestar-prettan/static/media/Aloe-Vera-&-Tea-Tree-Bottle.296698f4.png",
+    "static/media/Chamomile-&-Arnica-Bottle-OK.26f3f8bf.png": "/bienestar-prettan/static/media/Chamomile-&-Arnica-Bottle-OK.26f3f8bf.png",
+    "static/media/FICHA TECNICA ALOE VERA & AC HIALURONICO Spa & Relax.12dac9c1.pdf": "/bienestar-prettan/static/media/FICHA TECNICA ALOE VERA & AC HIALURONICO Spa & Relax.12dac9c1.pdf",
+    "static/media/FICHA TECNICA ALOE VERA & TEA TREE Spa & Relax.84fa4ebf.pdf": "/bienestar-prettan/static/media/FICHA TECNICA ALOE VERA & TEA TREE Spa & Relax.84fa4ebf.pdf",
+    "static/media/FICHA TECNICA LAVENDER Spa & Relax.f27e62db.pdf": "/bienestar-prettan/static/media/FICHA TECNICA LAVENDER Spa & Relax.f27e62db.pdf",
+    "static/media/FICHA TECNICA SWEET ALMOND Spa & Relax.0fb2fc55.pdf": "/bienestar-prettan/static/media/FICHA TECNICA SWEET ALMOND Spa & Relax.0fb2fc55.pdf",
+    "static/media/FICHA TECNICA ÁRNICA & CHAMOMILLE Spa & Relax.769ebae2.pdf": "/bienestar-prettan/static/media/FICHA TECNICA ÁRNICA & CHAMOMILLE Spa & Relax.769ebae2.pdf",
+    "static/media/Lavender-Bottle.cd9fb615.png": "/bienestar-prettan/static/media/Lavender-Bottle.cd9fb615.png",
+    "static/media/Sweet-Almond-Bottle.cbcf0af8.png": "/bienestar-prettan/static/media/Sweet-Almond-Bottle.cbcf0af8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e034a1c7.js",
+    "static/js/2.d6def36f.chunk.js",
+    "static/css/main.8018442d.chunk.css",
+    "static/js/main.5e3a8d39.chunk.js"
+  ]
+}
