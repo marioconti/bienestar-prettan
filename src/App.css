@@ -1,4 +1,3 @@
-
 html {
     box-sizing: border-box;
 }
@@ -7,6 +6,6 @@ html {
 }
 
 .app {
-    max-width: 95%;
+    font-family: 'Lato', sans-serif;
     margin: 0 auto;
 }

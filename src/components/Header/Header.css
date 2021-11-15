@@ -6,19 +6,20 @@
 }
 
 .mainLogo {
-    width: 120px;
+    margin-left: 60px;
+    width: 180px;
 }
 
 .nav {
-    width: 60%;
     align-items: center;
     display: flex;
-    justify-content: space-between;
 }
 
 .nav a {
+    margin: 0 60px;
+    font-size: 18px;
     color: black;
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
 }
