@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/bienestar-prettan/static/css/main.1a44917d.chunk.css",
-    "main.js": "/bienestar-prettan/static/js/main.5e3a8d39.chunk.js",
-    "main.js.map": "/bienestar-prettan/static/js/main.5e3a8d39.chunk.js.map",
+    "main.css": "/bienestar-prettan/static/css/main.da77eb62.chunk.css",
+    "main.js": "/bienestar-prettan/static/js/main.50607363.chunk.js",
+    "main.js.map": "/bienestar-prettan/static/js/main.50607363.chunk.js.map",
     "runtime-main.js": "/bienestar-prettan/static/js/runtime-main.e034a1c7.js",
     "runtime-main.js.map": "/bienestar-prettan/static/js/runtime-main.e034a1c7.js.map",
     "static/js/2.d6def36f.chunk.js": "/bienestar-prettan/static/js/2.d6def36f.chunk.js",
     "static/js/2.d6def36f.chunk.js.map": "/bienestar-prettan/static/js/2.d6def36f.chunk.js.map",
     "index.html": "/bienestar-prettan/index.html",
-    "static/css/main.1a44917d.chunk.css.map": "/bienestar-prettan/static/css/main.1a44917d.chunk.css.map",
+    "static/css/main.da77eb62.chunk.css.map": "/bienestar-prettan/static/css/main.da77eb62.chunk.css.map",
     "static/js/2.d6def36f.chunk.js.LICENSE.txt": "/bienestar-prettan/static/js/2.d6def36f.chunk.js.LICENSE.txt",
     "static/media/Aloe-Vera-&-Hyaluronic-Ac.5308ea2a.png": "/bienestar-prettan/static/media/Aloe-Vera-&-Hyaluronic-Ac.5308ea2a.png",
     "static/media/Aloe-Vera-&-Tea-Tree-Bottle.296698f4.png": "/bienestar-prettan/static/media/Aloe-Vera-&-Tea-Tree-Bottle.296698f4.png",
@@ -19,12 +19,13 @@
     "static/media/FICHA TECNICA SWEET ALMOND Spa & Relax.0fb2fc55.pdf": "/bienestar-prettan/static/media/FICHA TECNICA SWEET ALMOND Spa & Relax.0fb2fc55.pdf",
     "static/media/FICHA TECNICA ÁRNICA & CHAMOMILLE Spa & Relax.769ebae2.pdf": "/bienestar-prettan/static/media/FICHA TECNICA ÁRNICA & CHAMOMILLE Spa & Relax.769ebae2.pdf",
     "static/media/Lavender-Bottle.cd9fb615.png": "/bienestar-prettan/static/media/Lavender-Bottle.cd9fb615.png",
-    "static/media/Sweet-Almond-Bottle.cbcf0af8.png": "/bienestar-prettan/static/media/Sweet-Almond-Bottle.cbcf0af8.png"
+    "static/media/Sweet-Almond-Bottle.cbcf0af8.png": "/bienestar-prettan/static/media/Sweet-Almond-Bottle.cbcf0af8.png",
+    "static/media/Welcome.css": "/bienestar-prettan/static/media/welcome.be1e2f12.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e034a1c7.js",
     "static/js/2.d6def36f.chunk.js",
-    "static/css/main.1a44917d.chunk.css",
-    "static/js/main.5e3a8d39.chunk.js"
+    "static/css/main.da77eb62.chunk.css",
+    "static/js/main.50607363.chunk.js"
   ]
 }
