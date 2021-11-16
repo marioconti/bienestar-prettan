@@ -37,6 +37,7 @@ export const arrayProducts = [
       "Libre de aceite, libre de Parabenos, sin Hexano y libre de crueldad animal (Vegano)",
     linkFicha: fichaaloeHyaluronic,
     ficha: fichaaloeHyaluronic,
+    enlaceAmazon: 'https://www.amazon.com/dp/B09DGSKJLV'
   },
   {
     id: 2,
@@ -61,6 +62,7 @@ export const arrayProducts = [
       "Libre de aceite, libre de Parabenos y libre de crueldad animal (Vegano)",
     linkFicha: fichAloeTea,
     ficha: fichAloeTea,
+    enlaceAmazon: 'https://www.amazon.com/dp/B09DGSJ7RY'
   },
   {
     id: 3,
@@ -82,6 +84,7 @@ export const arrayProducts = [
       "Libre de aceite, libre de Parabenos y libre de crueldad animal (Vegano)",
     linkFicha: fichaLavanda,
     ficha: fichaLavanda,
+    enlaceAmazon: 'https://www.amazon.com/dp/B09DGTC8CS'
   },
   {
     id: 4,
@@ -106,6 +109,7 @@ export const arrayProducts = [
       "Libre de aceite, libre de Parabenos y libre de crueldad animal (Vegano)",
     linkFicha: fichaChamomille,
     ficha: fichaChamomille,
+    enlaceAmazon: 'https://www.amazon.com/dp/B09DGQFTT3'
   },
   {
     id: 5,
@@ -124,5 +128,6 @@ export const arrayProducts = [
     notes: "Sin Hexano , sin Parabenos y libre de crueldad animal (Vegano)",
     linkFicha: fichaAlmond,
     ficha: fichaAlmond,
+    enlaceAmazon: 'https://www.amazon.com/dp/B09D8FLZXP'
   },
 ];

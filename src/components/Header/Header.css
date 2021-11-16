@@ -13,10 +13,12 @@
 .nav {
     align-items: center;
     display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    width: 50%;
 }
 
 .nav a {
-    margin: 0 60px;
     font-size: 18px;
     color: black;
     font-weight: 700;
