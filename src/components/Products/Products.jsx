@@ -6,15 +6,16 @@ import "./Products.css";
 export const ProductList = () => {
   return (
     <div className="products-container">
-      {arrayProducts.map((product) => {
+      {arrayProducts.map(({id, photo, shortDescription, nameProduct, linkFicha, ficha, enlaceAmazon }) => {
         return (
-          <div key={product.id}>
+          <div key={id}>
             <CardProducts
-              photo={product.photo}
-              shortDescription={product.shortDescription}
-              nameProduct={product.nameProduct}
-              linkFicha={product.linkFicha}
-              ficha={product.ficha}
+              photo={photo}
+              shortDescription={shortDescription}
+              nameProduct={nameProduct}
+              linkFicha={linkFicha}
+              ficha={ficha}
+              enlaceAmazon={enlaceAmazon}
             />
           </div>
         );

@@ -1,7 +1,7 @@
 import React from "react";
 import "./CardProducts.css";
 
-export const CardProducts = ({nameProduct, photo, shortDescription, linkFicha, ficha}) => {
+export const CardProducts = ({nameProduct, photo, shortDescription, linkFicha, ficha, enlaceAmazon}) => {
   return (
     <div className="card-container">
       <div className="product">
@@ -15,18 +15,13 @@ export const CardProducts = ({nameProduct, photo, shortDescription, linkFicha, f
         </a>
         <div className="info-description">{shortDescription}</div>
       </div>
-      <div className="button">
-        <a
-          className="button-enlace"
-          href={linkFicha}
-          download={ficha}
-        >
-          Descargar Ficha Técnica
+        <a href={linkFicha} download={ficha}>
+          <button className="button">Descargar Ficha Técnica</button>
         </a>
-      </div>
-      <div className="button">
-        <a className="button-enlace">Comprar</a>
-      </div>
+        <a href={enlaceAmazon}>
+          <button className='button'>Comprar</button>
+        </a>
+      
     </div>
   );
 };
