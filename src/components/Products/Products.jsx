@@ -1,6 +1,6 @@
 import React from "react";
-import { CardProducts } from "../cardProducts/cardProducts";
 import { arrayProducts } from "../../data";
+import { CardProducts } from "../CardProducts/CardProducts";
 import "./Products.css";
 
 export const ProductList = () => {
