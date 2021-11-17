@@ -20,8 +20,10 @@
 .svg {
   color: black;
   margin-left: 100px;
+  transition: 0.1s linear;
 }
 
 .svg:hover {
   color: rgb(108, 170, 108);
+  transition: 0.6s ease;
 }
