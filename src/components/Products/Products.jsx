@@ -1,6 +1,6 @@
 import React from "react";
 import { arrayProducts } from "../../data";
-import { CardProducts } from "../CardProducts/cardProducts";
+import { CardProducts } from "../CardProducts/CardProducts";
 import "./Products.css";
 
 export const ProductList = () => {
@@ -21,6 +21,7 @@ export const ProductList = () => {
           othersIngredients,
         }
         ) => {
+
           return (
             <div key={id}>
               <CardProducts

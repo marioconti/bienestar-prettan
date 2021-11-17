@@ -37,6 +37,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 280px;
+  text-align: center;
+  padding: 0 25px;
+  margin: 15px 0px;
+  line-height: 25px;
 }
 
 .product-name {
@@ -47,6 +52,79 @@
   line-height: 30px;
 }
 /* ================================= */
+
+
+.ingredients {
+  text-align: left;
+  margin: 0 auto;
+}
+
+.ingredientes-container {
+  width: 280px;
+}
+.notes-card {
+  padding: 0 20px;
+}
+/* ================================= */
+/* BOTONES */
+.button {
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 15px;
+  background-color: rgb(134, 218, 134);
+  transition: 0.2s linear;
+  color: #1d1d1d;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  box-shadow: 0px 5px 10px -6px rgba(0, 0, 0, 0.75);
+  font-family: "Lato", sans-serif;
+}
+
+.button:hover {
+  background-color: rgb(167, 243, 167);
+}
+/* ================================= */
+/* BOTON DESPLEGABLE */
+/* JSX */
+/* <div className="details ">
+            <details className="details3">
+              <summary className="moreinfo-sumary button">
+                More information
+              </summary>
+              <div className="ingredients">
+                <div class="contenido">
+                  <ul>
+                    <h4>Ingredientes Activos</h4>
+                    <div className="ingredientes-container">
+                      {ingredients.map((ingrediente) => {
+                        return <li>{ingrediente.ingredientes}</li>;
+                      })}
+                    </div>
+                  </ul>
+                  <ul>
+                    <h4>Ingredientes</h4>
+                    <div className="ingredientes-container">
+                      {othersIngredients.map((ingrediente) => {
+                        return <li>{ingrediente.otherIngredientes}</li>;
+                      })}
+                    </div>
+                  </ul>
+                  <div className="notes-card">
+                    <h4>How to use</h4>
+                    <p>{howToUse}</p>
+                    <h4>Notes</h4>
+                    <p>{notes}</p>
+                  </div>
+                </div>
+              </div>
+            </details>
+          </div> */
+
+/* CSS */
 /* DETAILS */
 /* .details {
   display: flex;
@@ -72,25 +150,25 @@ details > summary:first-of-type {
   height: 1.25em;
 }
 .details3[open] {
-  height: 650px;
+  height: 680px;
 }
 
 details[open] summary ~ * {
-  animation: sweep 0.5s ease-in-out;
+  animation: sweep 1.2s ease-in-out;
 }
 
 @keyframes sweep {
   0% {
     opacity: 0;
-    margin-bottom: -10px;
+    margin-left: -10px;
   }
   50% {
     opacity: 0.5;
-    margin-bottom: 0px;
+    margin-left: 0px;
   }
   100% {
     opacity: 1;
-    margin-bottom: 0px;
+    margin-left: 0px;
   }
 } */
 
@@ -129,3 +207,4 @@ details[open] summary ~ * {
   background-color: rgb(167, 243, 167);
 }
 /* ================================= */
+

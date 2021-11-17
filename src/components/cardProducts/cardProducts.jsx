@@ -2,6 +2,7 @@ import React from "react";
 import {MoreInformation} from "../BotonModal/BotonModal";
 import "./cardProducts.css";
 
+
 export const CardProducts = ({
   nameProduct,
   photo,
@@ -17,11 +18,11 @@ export const CardProducts = ({
   return (
     <div className="card-container">
       <div className="product">
-        <h3 className="product-name">{nameProduct}</h3>
+        <h3 className="product-name ">{nameProduct}</h3>
         <a className="more-info" href="">
           <img className="image-product" src={photo} alt="imagen producto" />
         </a>
-        <div className="info-description">
+        <div className="info-description ">
           <p>{shortDescription}</p>
         </div>
       </div>
