@@ -1,6 +1,7 @@
 import React from "react";
 import {MoreInformation} from "../BotonModal/BotonModal";
-import "./CardProducts.css";
+
+import "./cardProducts.css";
 
 
 export const CardProducts = ({
