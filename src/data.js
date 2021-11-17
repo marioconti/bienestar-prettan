@@ -21,8 +21,8 @@ export const arrayProducts = [
     shortDescription:
       "Producto de cuidado en casa, recomendado para el apoyo de pieles secas y con signos de causados por la edad",
     ingredients: [
-      "Concentrado de Aloe Vera",
-      "Ácido Hialuronico de Origen Vegetal (1.5%)",
+      { ingredientes: "Concentrado de Aloe Vera" },
+      { ingredientes: "Ácido Hialuronico de Origen Vegetal (1.5%)" },
     ],
     othersIngredients: [
       "Agua",
@@ -37,7 +37,7 @@ export const arrayProducts = [
       "Libre de aceite, libre de Parabenos, sin Hexano y libre de crueldad animal (Vegano)",
     linkFicha: fichaaloeHyaluronic,
     ficha: fichaaloeHyaluronic,
-    enlaceAmazon: 'https://www.amazon.com/dp/B09DGSKJLV'
+    enlaceAmazon: "https://www.amazon.com/dp/B09DGSKJLV",
   },
   {
     id: 2,
@@ -46,8 +46,8 @@ export const arrayProducts = [
     shortDescription:
       "Producto de cuidado en casa, recomendado para el apoyo de pieles secas y con signos de causados por la edad",
     ingredients: [
-      "Concentrado de Aloe Vera",
-      "Árbol del Té (Melaleuca alternifolia",
+      { ingredientes: "Concentrado de Aloe Vera" },
+      { ingredientes: "Árbol del Té (Melaleuca alternifolia" },
     ],
     othersIngredients: [
       "Agua",
@@ -62,7 +62,7 @@ export const arrayProducts = [
       "Libre de aceite, libre de Parabenos y libre de crueldad animal (Vegano)",
     linkFicha: fichAloeTea,
     ficha: fichAloeTea,
-    enlaceAmazon: 'https://www.amazon.com/dp/B09DGSJ7RY'
+    enlaceAmazon: "https://www.amazon.com/dp/B09DGSJ7RY",
   },
   {
     id: 3,
@@ -70,7 +70,7 @@ export const arrayProducts = [
     photo: lavanda,
     shortDescription:
       "Producto de cuidado en casa, recomendado para el apoyo de pieles secas y con signos de causados por la edad",
-    ingredients: "Extracto concentrado de Lavanda",
+    ingredients: [{ ingredientes: "Extracto concentrado de Lavanda" }],
     othersIngredients: [
       "Agua",
       "Carbopol",
@@ -84,7 +84,7 @@ export const arrayProducts = [
       "Libre de aceite, libre de Parabenos y libre de crueldad animal (Vegano)",
     linkFicha: fichaLavanda,
     ficha: fichaLavanda,
-    enlaceAmazon: 'https://www.amazon.com/dp/B09DGTC8CS'
+    enlaceAmazon: "https://www.amazon.com/dp/B09DGTC8CS",
   },
   {
     id: 4,
@@ -93,8 +93,8 @@ export const arrayProducts = [
     shortDescription:
       "Producto de cuidado en casa, recomendado para el apoyo de pieles secas y con signos de causados por la edad",
     ingredients: [
-      "Extracto concentrado de Árnica",
-      "Extracto concentrado de Manzanilla",
+      { ingredientes: "Extracto concentrado de Árnica" },
+      { ingredientes: "Extracto concentrado de Manzanilla" },
     ],
     othersIngredients: [
       "Agua",
@@ -109,7 +109,7 @@ export const arrayProducts = [
       "Libre de aceite, libre de Parabenos y libre de crueldad animal (Vegano)",
     linkFicha: fichaChamomille,
     ficha: fichaChamomille,
-    enlaceAmazon: 'https://www.amazon.com/dp/B09DGQFTT3'
+    enlaceAmazon: "https://www.amazon.com/dp/B09DGQFTT3",
   },
   {
     id: 5,
@@ -118,9 +118,9 @@ export const arrayProducts = [
     shortDescription:
       "Producto de cuidado en casa, recomendado para el apoyo de pieles secas y con signos de causados por la edad",
     ingredients: [
-      "Aceite mineral",
-      "Aceite de Durazno",
-      "Fragancia natural de almendra",
+      { ingredientes: "Aceite mineral" },
+      { ingredientes: "Aceite de Durazno" },
+      { ingredientes: "Fragancia natural de almendra" },
     ],
     othersIngredients: "",
     howToUse:
@@ -128,6 +128,6 @@ export const arrayProducts = [
     notes: "Sin Hexano , sin Parabenos y libre de crueldad animal (Vegano)",
     linkFicha: fichaAlmond,
     ficha: fichaAlmond,
-    enlaceAmazon: 'https://www.amazon.com/dp/B09D8FLZXP'
+    enlaceAmazon: "https://www.amazon.com/dp/B09D8FLZXP",
   },
 ];
