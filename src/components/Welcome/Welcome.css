@@ -1,16 +1,14 @@
 .welcome-container {
-  align-items: center;
   background-image: url("../../assets/images/welcome.jpg");
   background-size: cover;
   background-position: 100% 7.5%;
-  object-fit: cover;
   display: flex;
+  align-items: center;
   margin: 0 auto;
   margin-bottom: 50px;
   width: 100%;
   height: 500px;
   color: #1d1d1d;
-
 }
 
 .glass-container {

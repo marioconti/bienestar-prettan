@@ -11,21 +11,29 @@ export const Footer = () => {
           href="https://www.facebook.com/BienestarconPrettan/"
           target="_blank"
         >
-          <i className="fab fa-facebook-square"></i>
+          <i
+            className="fab fa-facebook-square"
+            style={{ fontSize: 30 + "px" }}
+          ></i>
         </a>
         <a
           className="svg"
           href="https://www.instagram.com/prettanmexico/?hl=en"
           target="_blank"
         >
-          <i class="fab fa-instagram-square"></i>
+          <i
+            class="fab fa-instagram-square"
+            style={{ fontSize: 30 + "px" }}
+          ></i>
         </a>
         <a
           className="svg"
           href="https://www.youtube.com/channel/UCzRnVDScAvo6GaXmGV62jyQ"
           target="_blank"
         >
-          <i className="fab fa-youtube"> </i>
+          <i className="fab fa-youtube" style={{ fontSize: 30 + "px" }}>
+            {" "}
+          </i>
         </a>
       </div>
     </div>
