@@ -11,15 +11,16 @@ export const CardProducts = ({
   ficha,
   enlaceAmazon,
   ingredients,
+  othersIngredients,
 }) => {
   return (
     <div className="card-container">
       <div className="product">
-        <h3 className="product-name">{nameProduct}</h3>
+        <h3 className="product-name ">{nameProduct}</h3>
         <a className="more-info" href="">
           <img className="image-product" src={photo} alt="imagen producto" />
         </a>
-        <div className="info-description">
+        <div className="info-description ">
           <p>{shortDescription}</p>
           <div className="details ">
             <details className="details3">
@@ -30,20 +31,26 @@ export const CardProducts = ({
                 <div class="contenido">
                   <ul>
                     <h4>Ingredientes Activos</h4>
-                    {ingredients.map((ingrediente) => {
-                      return <li>{ingrediente.ingredientes}</li>;
-                    })}
+                    <div className="ingredientes-container">
+                      {ingredients.map((ingrediente) => {
+                        return <li>{ingrediente.ingredientes}</li>;
+                      })}
+                    </div>
                   </ul>
                   <ul>
                     <h4>Ingredientes</h4>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <div className="ingredientes-container">
+                      {othersIngredients.map((ingrediente) => {
+                        return <li>{ingrediente.otherIngredientes}</li>;
+                      })}
+                    </div>
                   </ul>
-                  <h4>How to use</h4>
-                  <p>{howToUse}</p>
-                  <h4>Notes</h4>
-                  <p>{notes}</p>
+                  <div className="notes-card">
+                    <h4>How to use</h4>
+                    <p>{howToUse}</p>
+                    <h4>Notes</h4>
+                    <p>{notes}</p>
+                  </div>
                 </div>
               </div>
             </details>

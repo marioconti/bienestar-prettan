@@ -4,7 +4,6 @@ import { CardProducts } from "../CardProducts/CardProducts";
 import "./Products.css";
 
 export const ProductList = () => {
-  
   return (
     <div className="products-container">
       {arrayProducts.map(
@@ -19,9 +18,8 @@ export const ProductList = () => {
           ficha,
           enlaceAmazon,
           ingredients,
-        }
-        ) => {
-          console.log(ingredients)
+          othersIngredients,
+        }) => {
           return (
             <div key={id}>
               <CardProducts
@@ -34,6 +32,7 @@ export const ProductList = () => {
                 howToUse={howToUse}
                 notes={notes}
                 ingredients={ingredients}
+                othersIngredients={othersIngredients}
               />
             </div>
           );
