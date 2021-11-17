@@ -22,41 +22,9 @@ export const CardProducts = ({
         </a>
         <div className="info-description ">
           <p>{shortDescription}</p>
-          <div className="details ">
-            <details className="details3">
-              <summary className="moreinfo-sumary button">
-                More information
-              </summary>
-              <div className="ingredients">
-                <div class="contenido">
-                  <ul>
-                    <h4>Ingredientes Activos</h4>
-                    <div className="ingredientes-container">
-                      {ingredients.map((ingrediente) => {
-                        return <li>{ingrediente.ingredientes}</li>;
-                      })}
-                    </div>
-                  </ul>
-                  <ul>
-                    <h4>Ingredientes</h4>
-                    <div className="ingredientes-container">
-                      {othersIngredients.map((ingrediente) => {
-                        return <li>{ingrediente.otherIngredientes}</li>;
-                      })}
-                    </div>
-                  </ul>
-                  <div className="notes-card">
-                    <h4>How to use</h4>
-                    <p>{howToUse}</p>
-                    <h4>Notes</h4>
-                    <p>{notes}</p>
-                  </div>
-                </div>
-              </div>
-            </details>
-          </div>
         </div>
       </div>
+      {/* AQUI MODAL */}
       <a href={linkFicha} download={ficha}>
         <button className="button">Descargar Ficha Técnica</button>
       </a>
