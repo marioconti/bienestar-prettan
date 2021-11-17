@@ -1,5 +1,7 @@
 import React from "react";
-import "./CardProducts.css";
+import {MoreInformation} from "../BotonModal/BotonModal";
+import "./cardProducts.css";
+
 
 export const CardProducts = ({
   nameProduct,
@@ -24,7 +26,7 @@ export const CardProducts = ({
           <p>{shortDescription}</p>
         </div>
       </div>
-      {/* AQUI MODAL */}
+      <MoreInformation notes={notes} howToUse={howToUse} ingredients={ingredients} othersIngredients={othersIngredients} />
       <a href={linkFicha} download={ficha}>
         <button className="button">Descargar Ficha Técnica</button>
       </a>

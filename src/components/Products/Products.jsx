@@ -19,7 +19,9 @@ export const ProductList = () => {
           enlaceAmazon,
           ingredients,
           othersIngredients,
-        }) => {
+        }
+        ) => {
+
           return (
             <div key={id}>
               <CardProducts
