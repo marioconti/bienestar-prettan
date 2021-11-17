@@ -1,6 +1,6 @@
 import React from "react";
 import {MoreInformation} from "../BotonModal/BotonModal";
-import "./cardProducts.css";
+import "./CardProducts.css";
 
 
 export const CardProducts = ({

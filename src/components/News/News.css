@@ -16,8 +16,7 @@
 .title-news {
   font-size: 50px;
   margin-bottom: 0px;
-  text-decoration: underline 10px;
-  text-decoration-color: rgb(134, 218, 134);
+border-bottom: rgb(134, 218, 134) 5px solid;
 }
 
 .news-text {
