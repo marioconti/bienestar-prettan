@@ -1,5 +1,5 @@
 import React from "react";
-import {MoreInformation} from "./BotonModal";
+import {MoreInformation} from "../BotonModal/BotonModal";
 import "./cardProducts.css";
 
 export const CardProducts = ({

@@ -1,7 +1,7 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { styled, Box } from '@mui/system';
 import ModalUnstyled from '@mui/core/ModalUnstyled';
+import './BotonModal.css'
 
 const StyledModal = styled(ModalUnstyled)`
   position: fixed;
@@ -51,7 +51,7 @@ export function MoreInformation({ingredients, othersIngredients, howToUse, notes
                 </ul>
                 <h4>Ingredientes</h4>
                 <ul>
-                    {/* {othersIngredients.map((ingrediente) => {return <li>{ingrediente}</li>})} */}
+                    {othersIngredients.map((ingrediente) => {return <li>{ingrediente.otherIngredientes}</li>})}
                 </ul>
                 <h4>How to use</h4>
                 <p>{howToUse}</p>
