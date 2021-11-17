@@ -12,7 +12,7 @@ export const CardProducts = ({
   enlaceAmazon,
   ingredients,
 }) => {
-  console.log("ESTO HAY EN INGREDIENTES" + ingredients);
+  console.log("ESTO HAY EN INGREDIENTES" + ingredients[0].ingredientes);
   return (
     <div className="card-container">
       <div className="product">
@@ -31,9 +31,9 @@ export const CardProducts = ({
                 <div class="contenido">
                   <ul>
                     <h4>Ingredientes Activos</h4>
-                    {/* {ingredients.map((ingrediente) => {
-                      return <li>{ingrediente}</li>;
-                    })} */}
+                    {ingredients.map((ingrediente) => {
+                      return <li>{ingrediente.ingredientes}</li>;
+                    })}
                   </ul>
                   <ul>
                     <h4>Ingredientes</h4>
