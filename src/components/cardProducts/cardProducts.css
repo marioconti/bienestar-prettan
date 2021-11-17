@@ -129,3 +129,10 @@ details[open] summary ~ * {
   background-color: rgb(167, 243, 167);
 }
 /* ================================= */
+
+.modal-box {
+  background-color: white;
+  text-align: center;
+  width: 500px;
+  border-radius: 15px;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import {ModalUnstyledDemo} from "./BotonModal";
 import "./cardProducts.css";
 
 export const CardProducts = ({
@@ -21,6 +22,8 @@ export const CardProducts = ({
         </a>
         <div className="info-description">
           <p>{shortDescription}</p>
+          <ModalUnstyledDemo/>
+
           <div className="details ">
             <details className="details3">
               <summary className="moreinfo-sumary button">

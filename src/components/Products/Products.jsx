@@ -4,7 +4,6 @@ import { CardProducts } from "../CardProducts/cardProducts";
 import "./Products.css";
 
 export const ProductList = () => {
-  
   return (
     <div className="products-container">
       {arrayProducts.map(
