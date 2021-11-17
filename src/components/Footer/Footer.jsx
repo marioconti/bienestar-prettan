@@ -31,7 +31,7 @@ export const Footer = () => {
           href="https://www.youtube.com/channel/UCzRnVDScAvo6GaXmGV62jyQ"
           target="_blank"
         >
-          <i className="fab fa-youtube" style={{ fontSize: 30 + "px" }}></i>
+          <i className="fab fa-youtube" style={{ fontSize: 30 + "px"}}></i>
         </a>
       </div>
     </div>

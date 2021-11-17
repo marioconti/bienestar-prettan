@@ -1,5 +1,5 @@
 import React from "react";
-import "./cardProducts.css";
+import "./CardProducts.css";
 
 export const CardProducts = ({
   nameProduct,
@@ -12,7 +12,6 @@ export const CardProducts = ({
   enlaceAmazon,
   ingredients,
 }) => {
-  console.log("ESTO HAY EN INGREDIENTES" + ingredients[0].ingredientes);
   return (
     <div className="card-container">
       <div className="product">
@@ -22,8 +21,8 @@ export const CardProducts = ({
         </a>
         <div className="info-description">
           <p>{shortDescription}</p>
-          <div className="details">
-            <details>
+          <div className="details ">
+            <details className="details3">
               <summary className="moreinfo-sumary button">
                 More information
               </summary>
