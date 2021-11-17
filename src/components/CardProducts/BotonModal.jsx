@@ -25,26 +25,44 @@ const Backdrop = styled('div')`
   -webkit-tap-highlight-color: transparent;
 `;
 
-export function ModalUnstyledDemo() {
+export function MoreInformation({ingredients, howToUse, notes}) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
   return (
     <div>
-      <button className='button' type="button" onClick={handleOpen}>
-        Open modal
-      </button>
-      <StyledModal
-        aria-labelledby="unstyled-modal-title"
-        aria-describedby="unstyled-modal-description"
-        open={open}
-        onClose={handleClose}
-        BackdropComponent={Backdrop}
-      >
+        <button className='button' type="button" onClick={handleOpen}>
+            More information
+        </button>
+        <StyledModal
+            aria-labelledby="unstyled-modal-title"
+            aria-describedby="unstyled-modal-description"
+            open={open}
+            onClose={handleClose}
+            BackdropComponent={Backdrop}
+        >
         <Box className='modal-box'>
-          <h2 id="unstyled-modal-title">Ingredients</h2>
-          <p id="unstyled-modal-description">Aliquid amet deserunt earum!</p>
+        <div className="ingredients">
+            <div class="contenido">
+                <ul>
+                <h4>Ingredientes Activos</h4>
+                {ingredients.map((ingrediente) => {
+                    return <li>{ingrediente.ingredientes}</li>;    
+                })}
+                </ul>
+                <ul>
+                    <h4>Ingredientes</h4>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <h4>How to use</h4>
+                <p>{howToUse}</p>
+                <h4>Notes</h4>
+                <p>{notes}</p>
+            </div>
+        </div>
         </Box>
       </StyledModal>
     </div>
