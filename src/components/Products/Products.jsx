@@ -18,9 +18,9 @@ export const ProductList = () => {
           ficha,
           enlaceAmazon,
           ingredients,
+          othersIngredients,
         }
         ) => {
-          console.log(ingredients)
           return (
             <div key={id}>
               <CardProducts
@@ -33,6 +33,7 @@ export const ProductList = () => {
                 howToUse={howToUse}
                 notes={notes}
                 ingredients={ingredients}
+                othersIngredients={othersIngredients}
               />
             </div>
           );

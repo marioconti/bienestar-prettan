@@ -12,6 +12,7 @@ export const CardProducts = ({
   ficha,
   enlaceAmazon,
   ingredients,
+  othersIngredients,
 }) => {
   return (
     <div className="card-container">
@@ -24,7 +25,7 @@ export const CardProducts = ({
           <p>{shortDescription}</p>
         </div>
       </div>
-      <MoreInformation notes={notes} howToUse={howToUse} ingredients={ingredients} />
+      <MoreInformation notes={notes} howToUse={howToUse} ingredients={ingredients} othersIngredients={othersIngredients} />
       <a href={linkFicha} download={ficha}>
         <button className="button">Descargar Ficha Técnica</button>
       </a>
