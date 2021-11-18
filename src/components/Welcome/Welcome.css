@@ -43,6 +43,6 @@
 }
 
 .welcome-container p a:hover{
-  text-shadow: 0px 1px 3px rgb(66, 66, 66);
-  transition: 0.4s ease;
+
+  color: rgb(103, 213, 103);
 }

@@ -1,5 +1,6 @@
 import "./News.css";
 import React from "react";
+import { NewsButton } from "./NewsBoton/NewsButton";
 
 export const News = () => {
   return (
@@ -11,33 +12,9 @@ export const News = () => {
           mejores consejos para el desarrollo personal?
         </h3>
       </div>
-      <div className="subscription">
-        <div id="mc_embed_signup">
-          <form
-            action="https://bienestarconprettan.us17.list-manage.com/subscribe/post?u=c502f031e9e83d40ff2164786&amp;id=7cce6b84f5"
-            method="post"
-            id="mc-embedded-subscribe-form"
-            name="mc-embedded-subscribe-form"
-            class="validate"
-            target="_blank"
-            novalidate
-          >
-            <div id="mc_embed_signup_scroll">
-              <h2>¡Registrate ahora!</h2>
+      <h2>¡Registrate ahora!</h2>
 
-              <div class="clear">
-                <input
-                  type="submit"
-                  value="Subscribe"
-                  name="subscribe"
-                  id="mc-embedded-subscribe"
-                  class="button button-subscription"
-                />
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
+      <div class="clear">{<NewsButton />}</div>
     </div>
   );
 };

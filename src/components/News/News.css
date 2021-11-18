@@ -16,7 +16,7 @@
 .title-news {
   font-size: 50px;
   margin-bottom: 0px;
-border-bottom: rgb(134, 218, 134) 5px solid;
+  border-bottom: rgb(134, 218, 134) 5px solid;
 }
 
 .news-text {
@@ -24,7 +24,7 @@ border-bottom: rgb(134, 218, 134) 5px solid;
   font-size: 32px;
 }
 
-.button-subscription {
+.button-news {
   margin-top: 10px;
   height: 60px;
   width: 300px;
