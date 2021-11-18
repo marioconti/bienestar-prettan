@@ -42,7 +42,7 @@ export function NewsButton() {
         onClose={handleButton}
         BackdropComponent={Backdrop}
       >
-        <Box className="modal-box">
+        <Box className="modal-box-news">
           <iframe
           className="subscribe"
             src="https://bienestarconprettan.us17.list-manage.com/subscribe/post?u=c502f031e9e83d40ff2164786&id=7cce6b84f5"

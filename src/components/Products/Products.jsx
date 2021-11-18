@@ -6,7 +6,7 @@ import "./Products.css";
 export const ProductList = () => {
   return (
     <>
-      <h1 className="title-products">Productos Prettan</h1>
+      <h1 className="title-products">PRODUCTS⠀PRETTÁN</h1>
       <div className="products-container">
         {arrayProducts.map(
           ({

@@ -18,7 +18,7 @@
 }
 
 .svg {
-  color: black;
+  color: rgb(34, 34, 34);
   margin-left: 100px;
   transition: 0.1s linear;
 }
