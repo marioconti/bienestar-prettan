@@ -5,12 +5,24 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  /* background-image: linear-gradient(
+    200deg,
+    #f7ffd4 0,
+    #e5ffcd 16.67%,
+    #d0ffc5 33.33%,
+    #b8ffba 50%,
+    #9ef3b1 66.67%,
+    #86eaab 83.33%,
+    #6fe3a9 100%
+  );
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
 }
+
 /* ==================== */
 .title-products {
   width: 37rem;
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
   font-size: 50px;
