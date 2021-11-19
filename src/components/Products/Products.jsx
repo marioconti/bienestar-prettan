@@ -1,12 +1,12 @@
 import React from "react";
 import { arrayProducts } from "../../data";
-import { CardProducts } from "../CardProducts/CardProducts";
+import { CardProducts } from "../cardProducts/CardProducts";
 import "./Products.css";
 
 export const ProductList = () => {
   return (
     <>
-      <h1 className="title-products">PRODUCTS⠀PRETTÁN</h1>
+      <h1 id='productList' className="title-products">PRODUCTS⠀PRETTÁN</h1>
       <div className="products-container">
         {arrayProducts.map(
           ({

@@ -11,23 +11,28 @@
 }
 
 .nav {
+  width: 60%;
+}
+
+.nav ul {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-right: 60px;
-  width: 50%;
+  padding: 0;
 }
 
-.nav a {
+.nav li {
   font-size: 18px;
   color: #1d1d1d;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
+  margin-right: 60px;
+  list-style: none;
 }
 
 /* ANIMATION UNDERLINE */
-.nav a:after {
+.nav li:after {
   content: "";
   margin-top: 3px;
   display: flex;
@@ -40,8 +45,8 @@
   transition: 0.2s linear;
 }
 
-.nav a:hover:after,
-.nav a:focus:after {
+.nav li:hover:after,
+.nav li:focus:after {
   visibility: visible;
   transform: scaleX(1);
 }
