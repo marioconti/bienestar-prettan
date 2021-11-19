@@ -77,7 +77,7 @@
   background-color: rgb(134, 218, 134);
   transition: 0.2s linear;
   color: #1d1d1d;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 40px;
   text-align: center;
   box-shadow: 0px 5px 10px -6px rgba(0, 0, 0, 0.75);
@@ -87,6 +87,29 @@
 .button:hover {
   background-color: rgb(167, 243, 167);
 }
+
+.buttonCompra {
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 15px;
+  background-color: #51d9d9;
+  transition: 0.2s linear;
+  color: #1d1d1d;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  box-shadow: 0px 5px 10px -6px rgba(0, 0, 0, 0.75);
+  font-family: "Lato", sans-serif;
+}
+
+.buttonCompra:hover {
+  background-color: #84d9d9;
+}
+
 /* ================================= */
 /* BOTON DESPLEGABLE */
 /* JSX */

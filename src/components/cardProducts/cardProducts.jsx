@@ -31,7 +31,7 @@ export const CardProducts = ({
         <button className="button">Descargar Ficha Técnica</button>
       </a>
       <a href={enlaceAmazon} target="_blank">
-        <button className="button">Comprar</button>
+        <button className="buttonCompra">Comprar</button>
       </a>
     </div>
   );

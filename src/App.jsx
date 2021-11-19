@@ -10,11 +10,8 @@ function App() {
     <div className="app">
       <Header />
       <Welcome />
-      <ProductList 
-      dark={true}
-      id="productList"
-      />
-      <News />
+      <ProductList dark={true} id="productList"/>
+      <News dark={true} id="suscription"/>
       <Footer />
     </div>
   );

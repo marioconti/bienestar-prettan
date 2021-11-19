@@ -6,7 +6,7 @@ export const News = () => {
   return (
     <div className="news-container">
       <div className="intro">
-        <h1 className="title-news">NEWS</h1>
+        <h1 id='suscription' className="title-news">NEWS</h1>
         <h3 className="news-text">
           ¿Quieres que te avisemos sobre nuestro siguiente webinar y te mandemos
           mejores consejos para el desarrollo personal?
