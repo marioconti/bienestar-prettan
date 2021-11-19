@@ -24,6 +24,7 @@
 .nav li {
   font-size: 18px;
   color: #1d1d1d;
+  cursor: pointer;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
