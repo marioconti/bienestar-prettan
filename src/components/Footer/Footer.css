@@ -12,18 +12,29 @@
 }
 
 .e-commerce {
+  width: 30%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .svg {
   color: rgb(34, 34, 34);
-  margin-left: 100px;
   transition: 0.1s linear;
 }
 
 .svg:hover {
   color: rgb(108, 170, 108);
   transition: .2s linear;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .e-commerce {
+    width: 60%;
+  }
 }

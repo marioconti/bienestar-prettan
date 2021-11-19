@@ -1,33 +1,31 @@
 .welcome-container {
   background-image: url("../../assets/images/welcome.jpg");
   background-size: cover;
-  background-position: 100% 7.5%;
+  background-position: 100% 30%;
   display: flex;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 50px;
   width: 100%;
-  height: 500px;
   color: #1d1d1d;
 }
 
 .glass-container {
+  align-items: center;
+  background-color: #00000010;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
+  margin: 30px auto;
   width: 95%;
-  height: 420px;
-  background-color: #00000010;
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(20px);
-  border-radius: 15px;
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .welcome-container h1 {
   font-size: 50px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 35px;
   margin-bottom: 0;
 }
 
@@ -43,6 +41,12 @@
 }
 
 .welcome-container p a:hover{
-
   color: rgb(103, 213, 103);
+}
+
+
+@media screen and (max-width: 900px) {
+  .welcome-container {
+    background-position: 100% 10%;
+  }
 }

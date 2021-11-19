@@ -33,3 +33,9 @@
   font-weight: 700;
   color: #1d1d1d;
 }
+
+@media screen and (max-width: 900px) {
+  .news-container {
+    margin-bottom: 50px;
+  }
+}

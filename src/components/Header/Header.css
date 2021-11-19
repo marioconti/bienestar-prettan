@@ -7,7 +7,7 @@
 
 .mainLogo {
   margin-left: 60px;
-  width: 180px;
+  width: 50%;
 }
 
 .nav {
@@ -50,4 +50,23 @@
 .nav li:focus:after {
   visibility: visible;
   transform: scaleX(1);
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mainLogo, .nav li {
+    margin: 0;
+  }
+
+  .nav ul {
+    flex-direction: column;
+  }
 }
