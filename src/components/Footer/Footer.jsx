@@ -12,8 +12,7 @@ export const Footer = () => {
           target="_blank"
         >
           <i
-            className="fab fa-facebook-square"
-            style={{ fontSize: 30 + "px" }}
+            className="fab fa-facebook-square icon"
           ></i>
         </a>
         <a
@@ -22,8 +21,7 @@ export const Footer = () => {
           target="_blank"
         >
           <i
-            class="fab fa-instagram-square"
-            style={{ fontSize: 30 + "px" }}
+            class="fab fa-instagram-square icon"
           ></i>
         </a>
         <a
@@ -31,7 +29,7 @@ export const Footer = () => {
           href="https://www.youtube.com/channel/UCzRnVDScAvo6GaXmGV62jyQ"
           target="_blank"
         >
-          <i className="fab fa-youtube" style={{ fontSize: 30 + "px"}}></i>
+          <i className="fab fa-youtube icon" ></i>
         </a>
       </div>
     </div>

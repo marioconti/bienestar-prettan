@@ -5,7 +5,7 @@ import "./Products.css";
 
 export const ProductList = () => {
   return (
-    <>
+    <div className='products-main-container'>
       <h1 id='productList' className="title-products">PRODUCTS⠀PRETTÁN</h1>
       <div className="products-container">
         {arrayProducts.map(
@@ -41,6 +41,6 @@ export const ProductList = () => {
           }
         )}
       </div>
-    </>
+    </div>
   );
 };

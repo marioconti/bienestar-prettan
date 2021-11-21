@@ -110,91 +110,6 @@
   background-color: #84d9d9;
 }
 
-/* ================================= */
-/* BOTON DESPLEGABLE */
-/* JSX */
-/* <div className="details ">
-            <details className="details3">
-              <summary className="moreinfo-sumary button">
-                More information
-              </summary>
-              <div className="ingredients">
-                <div class="contenido">
-                  <ul>
-                    <h4>Ingredientes Activos</h4>
-                    <div className="ingredientes-container">
-                      {ingredients.map((ingrediente) => {
-                        return <li>{ingrediente.ingredientes}</li>;
-                      })}
-                    </div>
-                  </ul>
-                  <ul>
-                    <h4>Ingredientes</h4>
-                    <div className="ingredientes-container">
-                      {othersIngredients.map((ingrediente) => {
-                        return <li>{ingrediente.otherIngredientes}</li>;
-                      })}
-                    </div>
-                  </ul>
-                  <div className="notes-card">
-                    <h4>How to use</h4>
-                    <p>{howToUse}</p>
-                    <h4>Notes</h4>
-                    <p>{notes}</p>
-                  </div>
-                </div>
-              </div>
-            </details>
-          </div> */
-
-/* CSS */
-/* DETAILS */
-/* .details {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.moreinfo-sumary {
-  text-align: center;
-  cursor: pointer;
-  font-size: 13.33px;
-}
-details > summary:first-of-type {
-  margin: 0 auto;
-  list-style-type: none;
-}
-
-.details3 {
-  margin-bottom: 15px;
-  transition: height 1s ease;
-}
-.details3:not([open]) {
-  height: 1.25em;
-}
-.details3[open] {
-  height: 680px;
-}
-
-details[open] summary ~ * {
-  animation: sweep 1.2s ease-in-out;
-}
-
-@keyframes sweep {
-  0% {
-    opacity: 0;
-    margin-left: -10px;
-  }
-  50% {
-    opacity: 0.5;
-    margin-left: 0px;
-  }
-  100% {
-    opacity: 1;
-    margin-left: 0px;
-  }
-} */
-
 .ingredients {
   text-align: left;
   margin: 0 auto;
@@ -230,3 +145,10 @@ details[open] summary ~ * {
   background-color: rgb(167, 243, 167);
 }
 /* ================================= */
+
+@media screen and (max-width: 900px) {
+  .card-container { 
+    margin: 50px 0;
+  }
+
+}
