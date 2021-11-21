@@ -38,4 +38,12 @@
   .news-container {
     margin-bottom: 50px;
   }
+
+  .title-news {
+    font-size: 35px;
+  }
+
+  .news-text {
+    font-size: 25px;
+  }
 }

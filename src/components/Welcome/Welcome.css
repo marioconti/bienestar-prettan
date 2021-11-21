@@ -49,4 +49,13 @@
   .welcome-container {
     background-position: 100% 10%;
   }
+
+  .welcome-container h1  {
+    font-size: 35px;
+  }
+
+  .welcome-container p {
+    font-size: 25px;
+  }
+
 }
