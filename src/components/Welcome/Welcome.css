@@ -1,13 +1,15 @@
 .welcome-container {
   background-image: url("../../assets/images/welcome.jpg");
   background-size: cover;
-  background-position: 100% 30%;
+  background-position: 100% 18%;
   display: flex;
   align-items: center;
   margin: 0 auto;
+  margin-top: 50px;
   margin-bottom: 50px;
   width: 100%;
   color: #1d1d1d;
+  box-shadow: 0px 2px 20px 1px rgba(168, 168, 168, 0.74);
 }
 
 .glass-container {
@@ -49,6 +51,8 @@
     background-image: url("../../assets/images/welcome-responsive.jpg");
     background-size: auto;
     background-position: 51% 42%;
+    margin-top: 0;
+    box-shadow: 0px 5px 10px -3px rgba(121, 121, 121, 0.75);
   }
 
   .glass-container {
@@ -61,6 +65,7 @@
 
   .welcome-container p {
     font-size: 25px;
+    text-align: center;
   }
 
   .welcome-container p a {
