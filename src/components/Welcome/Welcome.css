@@ -24,9 +24,9 @@
 
 .welcome-container h1 {
   font-size: 50px;
-  text-align: center;
   margin-top: 35px;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .welcome-container p {
@@ -40,17 +40,22 @@
   text-decoration: none;
 }
 
-.welcome-container p a:hover{
+.welcome-container p a:hover {
   color: rgb(103, 213, 103);
 }
 
-
 @media screen and (max-width: 900px) {
   .welcome-container {
-    background-position: 100% 10%;
+    background-image: url("../../assets/images/welcome-responsive.jpg");
+    background-size: auto;
+    background-position: 51% 42%;
   }
 
-  .welcome-container h1  {
+  .glass-container {
+    backdrop-filter: blur(32px);
+  }
+
+  .welcome-container h1 {
     font-size: 35px;
   }
 
@@ -58,4 +63,11 @@
     font-size: 25px;
   }
 
+  .welcome-container p a {
+    color: rgb(57, 107, 57);
+  }
+
+  .welcome-container p a:hover {
+    color: rgb(60, 156, 60);
+  }
 }
