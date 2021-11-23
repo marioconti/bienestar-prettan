@@ -18,7 +18,7 @@ export const Header = () => {
               to="productList"
               spy={true}
               smooth={true}
-              duration={2000}
+              duration={1000}
             >
               products
             </Link>
@@ -29,7 +29,7 @@ export const Header = () => {
               to="suscription"
               spy={true}
               smooth={true}
-              duration={3000}
+              duration={1000}
             >
               suscription
             </Link>
@@ -40,7 +40,7 @@ export const Header = () => {
             to="header"
             spy={true}
             smooth={true}
-            duration={3000}
+            duration={2000}
           >
             <i class="fas fa-arrow-circle-up"></i>
           </Link>
