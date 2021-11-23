@@ -1,0 +1,155 @@
+/* CONTENEDOR PRINCIPAL */
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: auto;
+  margin: 50px 80px;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0px 1px 10px 0px rgb(182, 180, 180);
+  color: #1d1d1d;
+  background-color: #fff;
+}
+
+/* ================================= */
+/* PRODUCT */
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* IMAGEN */
+.more-info {
+  cursor: pointer;
+}
+.image-product {
+  width: 300px;
+}
+/* ================================= */
+/* INFO CARD */
+
+.info-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  text-align: center;
+  padding: 0 25px;
+  margin: 15px 0px;
+  line-height: 25px;
+}
+
+.product-name {
+  margin-top: 0;
+  width: 250px;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+}
+/* ================================= */
+
+.ingredients {
+  text-align: left;
+  margin: 0 auto;
+}
+
+.ingredientes-container {
+  width: 280px;
+}
+.notes-card {
+  padding: 0 20px;
+}
+/* ================================= */
+/* BOTONES */
+.button {
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 15px;
+  background-color: rgb(134, 218, 134);
+  transition: 0.2s linear;
+  color: #1d1d1d;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  box-shadow: 0px 5px 10px -6px rgba(0, 0, 0, 0.75);
+  font-family: "Lato", sans-serif;
+}
+
+.button:hover {
+  background-color: rgb(167, 243, 167);
+}
+
+.buttonCompra {
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 15px;
+  background-color: #51d9d9;
+  transition: 0.2s linear;
+  color: #1d1d1d;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  box-shadow: 0px 5px 10px -6px rgba(0, 0, 0, 0.75);
+  font-family: "Lato", sans-serif;
+}
+
+.buttonCompra:hover {
+  background-color: #84d9d9;
+}
+
+.ingredients {
+  text-align: left;
+  margin: 0 auto;
+}
+
+/* ================================= */
+.info-description {
+  text-align: center;
+  padding: 0 25px;
+  margin: 15px 0px;
+  line-height: 25px;
+}
+/* ================================= */
+/* BOTONES */
+.button {
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 15px;
+  background-color: rgb(134, 218, 134);
+  transition: 0.2s linear;
+  color: #1d1d1d;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  box-shadow: 0px 5px 10px -6px rgba(0, 0, 0, 0.75);
+  font-family: "Lato", sans-serif;
+}
+
+.button:hover {
+  background-color: rgb(167, 243, 167);
+}
+/* ================================= */
+
+@media screen and (max-width: 900px) {
+  .card-container { 
+    margin: 50px auto;
+    width: 80%;
+  }
+
+}

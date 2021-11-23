@@ -1,0 +1,45 @@
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 60px;
+  margin-top: 50px;
+  box-shadow: 0px 2px 12px 1px rgba(115, 114, 114, 0.75);
+}
+
+.marca {
+  display: inline-block;
+}
+
+.e-commerce {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 110px;
+  width: 30%;
+}
+
+.svg {
+  color: rgb(34, 34, 34);
+  transition: 0.1s linear;
+}
+
+.svg:hover,
+.link-header:hover {
+  color: rgb(108, 170, 108);
+  transition: 0.2s linear;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer-container {
+    height: 75px;
+  }
+  .e-commerce {
+    width: 60%;
+    margin-right: 0;
+  }
+}

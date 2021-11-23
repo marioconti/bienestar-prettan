@@ -1,0 +1,28 @@
+/* CONTAINER PRODUCTS */
+.products-main-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ==================== */
+.title-products {
+  margin: 100px auto;
+  font-size: 50px;
+  font-weight: 500;
+  border-bottom: rgb(134, 218, 134) 5px solid;
+}
+
+@media screen and (max-width: 900px) {
+  .title-products {
+    font-size: 30px;
+    margin: 30px auto;
+  }
+}

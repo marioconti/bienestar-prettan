@@ -1,0 +1,78 @@
+.welcome-container {
+  background-image: url("../../assets/images/welcome.jpg");
+  background-size: cover;
+  background-position: 100% 18%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  color: #1d1d1d;
+  box-shadow: 0px 2px 20px 1px rgba(168, 168, 168, 0.74);
+}
+
+.glass-container {
+  align-items: center;
+  background-color: #00000010;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  width: 95%;
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.welcome-container h1 {
+  font-size: 50px;
+  margin-top: 35px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.welcome-container p {
+  font-size: 35px;
+  font-weight: 700;
+  width: 80%;
+}
+
+.welcome-container p a {
+  color: rgb(134, 218, 134);
+  text-decoration: none;
+}
+
+.welcome-container p a:hover {
+  color: rgb(103, 213, 103);
+}
+
+@media screen and (max-width: 900px) {
+  .welcome-container {
+    background-image: url("../../assets/images/welcome-responsive.jpg");
+    background-size: auto;
+    background-position: 51% 42%;
+    margin-top: 0;
+    box-shadow: 0px 5px 10px -3px rgba(121, 121, 121, 0.75);
+  }
+
+  .glass-container {
+    backdrop-filter: blur(32px);
+  }
+
+  .welcome-container h1 {
+    font-size: 35px;
+  }
+
+  .welcome-container p {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .welcome-container p a {
+    color: rgb(57, 107, 57);
+  }
+
+  .welcome-container p a:hover {
+    color: rgb(60, 156, 60);
+  }
+}

@@ -1,0 +1,12 @@
+.subscribe {
+  width: 80vh;
+  height: 560px;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+}
+@media screen and (max-width: 900px) {
+  .subscribe {
+    width: 60vh;
+  }
+}
