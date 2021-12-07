@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bienestar-prettan/static/css/main.701bfc40.chunk.css",
-    "main.js": "/bienestar-prettan/static/js/main.a81b700c.chunk.js",
-    "main.js.map": "/bienestar-prettan/static/js/main.a81b700c.chunk.js.map",
+    "main.css": "/bienestar-prettan/static/css/main.161c31e5.chunk.css",
+    "main.js": "/bienestar-prettan/static/js/main.fa45af6c.chunk.js",
+    "main.js.map": "/bienestar-prettan/static/js/main.fa45af6c.chunk.js.map",
     "runtime-main.js": "/bienestar-prettan/static/js/runtime-main.e034a1c7.js",
     "runtime-main.js.map": "/bienestar-prettan/static/js/runtime-main.e034a1c7.js.map",
-    "static/js/2.a607937d.chunk.js": "/bienestar-prettan/static/js/2.a607937d.chunk.js",
-    "static/js/2.a607937d.chunk.js.map": "/bienestar-prettan/static/js/2.a607937d.chunk.js.map",
+    "static/js/2.29d4658b.chunk.js": "/bienestar-prettan/static/js/2.29d4658b.chunk.js",
+    "static/js/2.29d4658b.chunk.js.map": "/bienestar-prettan/static/js/2.29d4658b.chunk.js.map",
     "index.html": "/bienestar-prettan/index.html",
-    "static/css/main.701bfc40.chunk.css.map": "/bienestar-prettan/static/css/main.701bfc40.chunk.css.map",
-    "static/js/2.a607937d.chunk.js.LICENSE.txt": "/bienestar-prettan/static/js/2.a607937d.chunk.js.LICENSE.txt",
+    "static/css/main.161c31e5.chunk.css.map": "/bienestar-prettan/static/css/main.161c31e5.chunk.css.map",
+    "static/js/2.29d4658b.chunk.js.LICENSE.txt": "/bienestar-prettan/static/js/2.29d4658b.chunk.js.LICENSE.txt",
     "static/media/Aloe-Vera-&-Hyaluronic-Ac.5308ea2a.png": "/bienestar-prettan/static/media/Aloe-Vera-&-Hyaluronic-Ac.5308ea2a.png",
     "static/media/Aloe-Vera-&-Tea-Tree-Bottle.296698f4.png": "/bienestar-prettan/static/media/Aloe-Vera-&-Tea-Tree-Bottle.296698f4.png",
     "static/media/Chamomile-&-Arnica-Bottle-OK.26f3f8bf.png": "/bienestar-prettan/static/media/Chamomile-&-Arnica-Bottle-OK.26f3f8bf.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e034a1c7.js",
-    "static/js/2.a607937d.chunk.js",
-    "static/css/main.701bfc40.chunk.css",
-    "static/js/main.a81b700c.chunk.js"
+    "static/js/2.29d4658b.chunk.js",
+    "static/css/main.161c31e5.chunk.css",
+    "static/js/main.fa45af6c.chunk.js"
   ]
 }
