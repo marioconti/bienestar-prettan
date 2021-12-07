@@ -1,6 +1,6 @@
 import React from "react";
 import {MoreInformation} from "../BotonModal/BotonModal";
-import './CardProducts.css'
+import './cardProducts.css'
 
 export const CardProducts = ({
   nameProduct,
@@ -27,10 +27,10 @@ export const CardProducts = ({
       </div>
       <MoreInformation notes={notes} howToUse={howToUse} ingredients={ingredients} othersIngredients={othersIngredients} />
       <a href={linkFicha} download={ficha}>
-        <button className="button">Descargar Ficha Técnica</button>
+        <button className="button">Data Sheet</button>
       </a>
       <a href={enlaceAmazon} target="_blank">
-        <button className="buttonCompra">Comprar</button>
+        <button className="buttonCompra">Buy</button>
       </a>
     </div>
   );

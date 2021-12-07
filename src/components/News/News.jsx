@@ -8,11 +8,9 @@ export const News = () => {
       <div className="intro">
         <h1 id='suscription' className="title-news">NEWS</h1>
         <h3 className="news-text">
-          ¿Quieres que te avisemos sobre nuestro siguiente webinar y te mandemos
-          mejores consejos para el desarrollo personal?
+        Do you want us to let you know upcoming product releases, and send you better tips for personal development?
         </h3>
       </div>
-      <h2>¡Registrate ahora!</h2>
 
       <div class="clear">{<NewsButton />}</div>
     </div>

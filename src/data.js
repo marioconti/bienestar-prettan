@@ -16,10 +16,10 @@ import fichaAlmond from "../src/assets/files/FICHA TECNICA SWEET ALMOND Spa & Re
 export const arrayProducts = [
   {
     id: 1,
-    nameProduct: "Beuty Gel de Alore Vera & Ácido Hialuronico",
+    nameProduct: "Aloe Vera & Hyaluronic Acid Beauty Gel",
     photo: aloeHyaluronic,
     shortDescription:
-      "Producto de cuidado en casa, recomendado para el apoyo de pieles secas y con signos de causados por la edad",
+      "Home care product, recommended for the support of dry skin and aging signs. Added with Hyaluronic Acid for better results!",
     ingredients: [
       { ingredientes: "Concentrado de Aloe Vera" },
       { ingredientes: "Ácido Hialuronico de Origen Vegetal (1.5%)" },
@@ -41,10 +41,10 @@ export const arrayProducts = [
   },
   {
     id: 2,
-    nameProduct: "Aloe Vera & Árbol del Té gel marca Prettan",
+    nameProduct: "Aloe Vera & Tea Tree Hydro Skin Gel",
     photo: aloeTea,
     shortDescription:
-      "Producto de cuidado en casa, recomendado para el apoyo de pieles secas y con signos de causados por la edad",
+      "Home care product, recommended for the support of dry skin and aging signs. Added with Tea Tree extract for better results!",
     ingredients: [
       { ingredientes: "Concentrado de Aloe Vera" },
       { ingredientes: "Árbol del Té (Melaleuca alternifolia" },
@@ -66,10 +66,10 @@ export const arrayProducts = [
   },
   {
     id: 3,
-    nameProduct: "Hydro Gel de Lavanda",
+    nameProduct: "Lavender Hydro Gel",
     photo: lavanda,
     shortDescription:
-      "Producto de cuidado en casa, recomendado para el apoyo de pieles secas y con signos de causados por la edad",
+      "Home care product, recommended for the support of dry skin and aging signs. With Lavender extract for better results!",
     ingredients: [{ ingredientes: "Extracto concentrado de Lavanda" }],
     othersIngredients: [
       { otherIngredientes: "Agua" },
@@ -88,10 +88,10 @@ export const arrayProducts = [
   },
   {
     id: 4,
-    nameProduct: "Gel de Árnica con Manzanilla",
+    nameProduct: "Chamomile & Arnica Cosmetic Nutrient Gel",
     photo: chamomille,
     shortDescription:
-      "Producto de cuidado en casa, recomendado para el apoyo de pieles secas y con signos de causados por la edad",
+      "Home care product, recommended for the support of dry skin and aging signs. With Arnica & Chamomile extract for better results!",
     ingredients: [
       { ingredientes: "Extracto concentrado de Árnica" },
       { ingredientes: "Extracto concentrado de Manzanilla" },
@@ -113,10 +113,10 @@ export const arrayProducts = [
   },
   {
     id: 5,
-    nameProduct: "Gel Hidratante de Almendra Dulce",
+    nameProduct: "Sweet Almond Moisturizing Oil",
     photo: almond,
     shortDescription:
-      "Producto de cuidado en casa, recomendado para el apoyo de pieles secas y con signos de causados por la edad",
+      "Home care product, recommended for the support of dry skin and aging signs. With Natural Almond Oil extract for better results!",
     ingredients: [
       { ingredientes: "Aceite mineral" },
       { ingredientes: "Aceite de Durazno" },
