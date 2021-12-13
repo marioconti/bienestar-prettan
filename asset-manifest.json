@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bienestar-prettan/static/css/main.161c31e5.chunk.css",
-    "main.js": "/bienestar-prettan/static/js/main.fa45af6c.chunk.js",
-    "main.js.map": "/bienestar-prettan/static/js/main.fa45af6c.chunk.js.map",
+    "main.js": "/bienestar-prettan/static/js/main.9fa38301.chunk.js",
+    "main.js.map": "/bienestar-prettan/static/js/main.9fa38301.chunk.js.map",
     "runtime-main.js": "/bienestar-prettan/static/js/runtime-main.e034a1c7.js",
     "runtime-main.js.map": "/bienestar-prettan/static/js/runtime-main.e034a1c7.js.map",
     "static/js/2.29d4658b.chunk.js": "/bienestar-prettan/static/js/2.29d4658b.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.e034a1c7.js",
     "static/js/2.29d4658b.chunk.js",
     "static/css/main.161c31e5.chunk.css",
-    "static/js/main.fa45af6c.chunk.js"
+    "static/js/main.9fa38301.chunk.js"
   ]
 }
