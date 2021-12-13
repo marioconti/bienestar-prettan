@@ -21,20 +21,19 @@ export const arrayProducts = [
     shortDescription:
       "Home care product, recommended for the support of dry skin and aging signs. Added with Hyaluronic Acid for better results!",
     ingredients: [
-      { ingredientes: "Concentrado de Aloe Vera" },
-      { ingredientes: "Ácido Hialuronico de Origen Vegetal (1.5%)" },
+      { ingredientes: "Aloe Vera Concentrate" },
+      { ingredientes: "Hyaluronic Acid of Plant Origin (1.5%)" },
     ],
     othersIngredients: [
-      { otherIngredientes: "Agua" },
+      { otherIngredientes: "Water" },
       { otherIngredientes: "Carbopol" },
-      { otherIngredientes: "Glicerina" },
-      { otherIngredientes: "Fenoxietanol" },
-      { otherIngredientes: "Fragancia Natural del Árbol del Té" },
+      { otherIngredientes: "Glycerin" },
+      { otherIngredientes: "Phenoxyethanol" },
+      { otherIngredientes: "Natural Tea Tree Fragrance" },
     ],
     howToUse:
-      "Aplique una capa delgada del gel sore la piel que escoja, dando un suave masaje. También puede usarlo después del baño o por la noche.",
-    notes:
-      "Libre de aceite, libre de Parabenos, sin Hexano y libre de crueldad animal (Vegano)",
+      "Apply a thin layer of the gel to the skin of your choice, massaging gently. You can also use it after bathing or at night.",
+    notes: "Oil Free, Paraben Free, Hexane Free and Cruelty Free (Vegan)",
     linkFicha: fichaaloeHyaluronic,
     ficha: fichaaloeHyaluronic,
     enlaceAmazon: "https://www.amazon.com/dp/B09DGSKJLV",
@@ -46,20 +45,19 @@ export const arrayProducts = [
     shortDescription:
       "Home care product, recommended for the support of dry skin and aging signs. Added with Tea Tree extract for better results!",
     ingredients: [
-      { ingredientes: "Concentrado de Aloe Vera" },
-      { ingredientes: "Árbol del Té (Melaleuca alternifolia" },
+      { ingredientes: "Aloe Vera Concentrate" },
+      { ingredientes: "Tea Tree (Melaleuca alternifolia)" },
     ],
     othersIngredients: [
-      { otherIngredientes: "Agua" },
+      { otherIngredientes: "Water" },
       { otherIngredientes: "Carbopol" },
-      { otherIngredientes: "Glicerina" },
-      { otherIngredientes: "Fenoxietanol" },
-      { otherIngredientes: "Fragancia Natural del Árbol del Té" },
+      { otherIngredientes: "Glycerin" },
+      { otherIngredientes: "Phenoxyethanol" },
+      { otherIngredientes: "Natural Tea Tree Fragrance" },
     ],
     howToUse:
-      "Aplique una capa delgada del gel sore la piel que escoja, dando un suave masaje. También puede usarlo después del baño o por la noche.",
-    notes:
-      "Libre de aceite, libre de Parabenos y libre de crueldad animal (Vegano)",
+      "Apply a thin layer of the gel to the skin of your choice, massaging gently. You can also use it after bathing or at night.",
+    notes: "Oil Free, Paraben Free, Hexane Free and Cruelty Free (Vegan)",
     linkFicha: fichAloeTea,
     ficha: fichAloeTea,
     enlaceAmazon: "https://www.amazon.com/dp/B09DGSJ7RY",
@@ -70,18 +68,20 @@ export const arrayProducts = [
     photo: lavanda,
     shortDescription:
       "Home care product, recommended for the support of dry skin and aging signs. With Lavender extract for better results!",
-    ingredients: [{ ingredientes: "Extracto concentrado de Lavanda" }],
+    ingredients: [{ ingredientes: "Lavender concentrated extract" }],
     othersIngredients: [
-      { otherIngredientes: "Agua" },
+      { otherIngredientes: "Water" },
       { otherIngredientes: "Carbopol" },
-      { otherIngredientes: "Glicerina" },
-      { otherIngredientes: "Fenoxietanol" },
-      { otherIngredientes: "Fragancia Natural del Árbol del Té" },
+      { otherIngredientes: "Glycerin" },
+      { otherIngredientes: "Phenoxyethanol" },
+      {
+        otherIngredientes:
+          "Natural Lavender Fragrance Natural del Árbol del Té",
+      },
     ],
     howToUse:
-      "Aplique una capa delgada del gel sore la piel que escoja, dando un suave masaje. También puede usarlo después del baño o por la noche.",
-    notes:
-      "Libre de aceite, libre de Parabenos y libre de crueldad animal (Vegano)",
+      "Apply a thin layer of the gel to the skin of your choice, massaging gently. You can also use it after bathing or at night.",
+    notes: "Oil Free, Paraben Free, Hexane Free and Cruelty Free (Vegan)",
     linkFicha: fichaLavanda,
     ficha: fichaLavanda,
     enlaceAmazon: "https://www.amazon.com/dp/B09DGTC8CS",
@@ -93,20 +93,19 @@ export const arrayProducts = [
     shortDescription:
       "Home care product, recommended for the support of dry skin and aging signs. With Arnica & Chamomile extract for better results!",
     ingredients: [
-      { ingredientes: "Extracto concentrado de Árnica" },
-      { ingredientes: "Extracto concentrado de Manzanilla" },
+      { ingredientes: "Arnica concentrated extract" },
+      { ingredientes: "Chamomile concentrated extract" },
     ],
     othersIngredients: [
-      { otherIngredientes: "Agua" },
+      { otherIngredientes: "Water" },
       { otherIngredientes: "Carbopol" },
-      { otherIngredientes: "Glicerina" },
-      { otherIngredientes: "Fenoxietanol" },
-      { otherIngredientes: "Fragancia Natural del Árbol del Té" },
+      { otherIngredientes: "Glycerin" },
+      { otherIngredientes: "Phenoxyethanol" },
+      { otherIngredientes: "Chamomile concentrated extract" },
     ],
     howToUse:
-      "Aplique una capa delgada del gel sore la piel que escoja, dando un suave masaje. También puede usarlo después del baño o por la noche.",
-    notes:
-      "Libre de aceite, libre de Parabenos y libre de crueldad animal (Vegano)",
+      "Apply a thin layer of the gel to the skin of your choice, massaging gently. You can also use it after bathing or at night.",
+    notes: "Oil Free, Paraben Free, Hexane Free and Cruelty Free (Vegan)",
     linkFicha: fichaChamomille,
     ficha: fichaChamomille,
     enlaceAmazon: "https://www.amazon.com/dp/B09DGQFTT3",
@@ -118,20 +117,19 @@ export const arrayProducts = [
     shortDescription:
       "Home care product, recommended for the support of dry skin and aging signs. With Natural Almond Oil extract for better results!",
     ingredients: [
-      { ingredientes: "Aceite mineral" },
-      { ingredientes: "Aceite de Durazno" },
-      { ingredientes: "Fragancia natural de almendra" },
+      { ingredientes: "Mineral oil" },
+      { ingredientes: "Peach Oil" },
     ],
     othersIngredients: [
-      { otherIngredientes: "Agua" },
+      { otherIngredientes: "Water" },
       { otherIngredientes: "Carbopol" },
-      { otherIngredientes: "Glicerina" },
-      { otherIngredientes: "Fenoxietanol" },
-      { otherIngredientes: "Fragancia Natural del Árbol del Té" },
+      { otherIngredientes: "Glycerin" },
+      { otherIngredientes: "Phenoxyethanol" },
+      { otherIngredientes: "Natural Almond extract" },
     ],
     howToUse:
-      "Aplique una capa delgada de aceite sore la piel que escoja, dando un suave masaje. También puede usarlo después del baño o por la noche.",
-    notes: "Sin Hexano , sin Parabenos y libre de crueldad animal (Vegano)",
+      "Apply a thin layer of the gel to the skin of your choice, massaging gently. You can also use it after bathing or at night.",
+    notes: "Oil Free, Paraben Free, Hexane Free and Cruelty Free (Vegan)",
     linkFicha: fichaAlmond,
     ficha: fichaAlmond,
     enlaceAmazon: "https://www.amazon.com/dp/B09D8FLZXP",
