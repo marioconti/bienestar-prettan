@@ -45,11 +45,11 @@ export function MoreInformation({ingredients, othersIngredients, howToUse, notes
         <Box className='modal-box'>
         <div className="ingredients">
             <div class="contenido">
-                <h4>Ingredientes Activos</h4>
+                <h4>Active ingredients</h4>
                 <ul>
                     {ingredients.map((ingrediente) => <li>{ingrediente.ingredientes}</li>)}
                 </ul>
-                <h4>Ingredientes</h4>
+                <h4>Ingredients</h4>
                 <ul>
                     {othersIngredients.map((ingrediente) => {return <li>{ingrediente.otherIngredientes}</li>})}
                 </ul>
